@@ -1,0 +1,12 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: "my-cluster"
+  description: "My cluster"
+  annotations:
+    github.com/project-slug: cwiklik/my-cluster
+    backstage.io/kubernetes-id: "my-cluster"
+spec:
+  type: service
+  lifecycle: experimental
+  owner: "user:default/guest"
